@@ -1,0 +1,134 @@
+:root {
+    --color-blue: rgb(81, 105, 167);
+    --color-tostado: rgb(208, 157, 114);
+    --color-light: rgb(209, 190, 173);
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-blue);
+}
+
+header h1 {
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+nav {
+    display: flex;
+    margin-left: auto;
+}
+
+nav p {
+    margin-left: 1rem;
+}
+
+nav p:last-child {
+    margin-right: 1rem;
+}
+
+nav :nth-child(2n) {
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-light);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+body section:first-of-type {
+    background-color: var(--color-tostado);
+    display: flex;
+    align-items: center;
+    height: 4rem;
+}
+
+section img {
+    width: 2rem;
+    padding: 1rem;
+}
+
+body section h2 {
+    font-weight: normal;
+    margin-left: auto;
+    margin-right: 1rem;
+    font-size: 2rem;
+}
+
+body > div > div {
+    display: flex;
+    align-items: center;
+}
+
+body > div > div > div {
+    font-size: 1.25rem;
+    display: flex;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 0;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: -1.5rem;
+}
+
+body > div > div div:last-child {
+    margin-left: auto;
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+input {
+    margin-right: 0.5rem;
+}
+
+body > div > div div:last-child p {
+    font-size: 1.25rem;
+}
+
+body > div > div div:last-child p:last-child {
+    font-weight: bold;
+    margin-left: 0.5rem;
+}
+
+body > div div:nth-child(2n + 1) div:first-child p {
+    text-decoration: line-through;
+}
+
+hr {
+    height: 1px;
+    background-color: var(--color-blue);
+    margin-top: 2rem;
+}
+
+body > div div:last-child p {
+    margin-left: auto;
+    margin-right: 1rem;
+    font-size: 2rem;
+}
+
+footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-blue);
+}
+
+footer img {
+    width: 100px;
+    margin: 1.5rem;
+}
+
+div {
+    background-color: antiquewhite;
+}
