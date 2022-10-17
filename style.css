@@ -70,6 +70,18 @@ body > div > div {
     align-items: center;
 }
 
+/*No sé cómo ponerlo, así no me coge el precio último pero el resto los coge por separado
+
+body > div  :not(body > div > div:last-of-type) :hover {
+    color: red;
+}
+
+*/
+
+body > div :hover {
+    color: red;
+}
+
 body > div > div > div {
     font-size: 1.25rem;
     display: flex;
@@ -127,8 +139,4 @@ footer {
 footer img {
     width: 100px;
     margin: 1.5rem;
-}
-
-div {
-    background-color: antiquewhite;
 }
