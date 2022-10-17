@@ -1,123 +1,76 @@
+@import './style_footer.css';
+@import './style_header.css';
+
 :root {
-  --color-blue: rgb(81, 105, 167);
-  --color-tostado: rgb(208, 157, 114);
-  --color-light: rgb(209, 190, 173);
+    --color-blue: rgb(81, 105, 167);
+    --color-tostado: rgb(208, 157, 114);
+    --color-light: rgb(209, 190, 173);
 }
 
 html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-header {
-  display: flex;
-  align-items: center;
-  background-color: var(--color-blue);
-}
-
-header h1 {
-  font-weight: bold;
-  margin-left: 1rem;
-}
-
-nav {
-  display: flex;
-  margin-left: auto;
-}
-
-nav p {
-  margin-left: 1rem;
-}
-
-nav p:last-child {
-  margin-right: 1rem;
-}
-
-nav :nth-child(2n) {
-  font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  background-color: var(--color-light);
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-light);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 body section:first-of-type {
-  background-color: var(--color-tostado);
-  display: flex;
-  align-items: center;
-  height: 4rem;
+    background-color: var(--color-tostado);
+    display: flex;
+    align-items: center;
+    height: 4rem;
 }
 
 section img {
-  width: 2rem;
-  padding: 1rem;
+    width: 2rem;
+    padding: 1rem;
 }
 
 body section h2 {
-  font-weight: normal;
-  margin-left: auto;
-  margin-right: 1rem;
-  font-size: 2rem;
+    font-weight: normal;
+    margin-left: auto;
+    margin-right: 1rem;
+    font-size: 2rem;
 }
 
 body > div > p {
-  font-size: 2rem;
-  font-weight: bold;
-  margin-left: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 1rem;
 }
 
 form {
-  margin-left: 1rem;
-  display: flex;
-  flex-direction: column;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 form input {
-  background: transparent;
-  border: 0;
-  border-bottom: 2px solid var(--color-blue);
-  outline: 0;
-  width: 20rem;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid var(--color-blue);
+    outline: 0;
+    width: 20rem;
 }
 
 button {
-  background-color: var(--color-blue);
-  border: none;
-  margin-top: 2rem;
-  padding: 0.5rem 2rem;
-  width: 10%;
-  text-decoration: none;
-  cursor: pointer;
-  color: white;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  font-weight: bold;
-}
-
-button :active {
-  position: relative;
-  top: 2px;
-}
-
-footer {
-  margin-top: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--color-blue);
-}
-
-footer img {
-  width: 100px;
-  margin: 1.5rem;
-}
-
-div {
-  background-color: antiquewhite;
+    background-color: var(--color-blue);
+    border: none;
+    margin-top: 2rem;
+    padding: 0.5rem 2rem;
+    width: 10%;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
 }

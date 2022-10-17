@@ -1,0 +1,12 @@
+footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-blue);
+}
+
+footer img {
+    width: 100px;
+    margin: 1.5rem;
+}
